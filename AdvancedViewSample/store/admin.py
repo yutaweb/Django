@@ -1,6 +1,5 @@
 from django.contrib import admin
-from user.models import Profile
+from .models import Items
 
 # Register your models here.
-
-admin.site.register(Profile)
+admin.site.register(Items)
